@@ -1,8 +1,7 @@
 language: objective-c
-
 osx_image: xcode11
-xcode_workspace: project.xcworkspace
+xcode_project: LPLibrary.xcodeproj
 xcode_scheme: LPLibrary
 xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
-before_install:
-  - cd LPLibrary.xcodeproj
+script:
+- set -o pipefail && xcodebuild test -enableCodeCoverage YES  
