@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		372808F0238F09BD0039DBFA /* LPLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372808EF238F09BD0039DBFA /* LPLibrary.swift */; };
 		37A947E6238F03B7005CE331 /* LPLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A947DC238F03B7005CE331 /* LPLibrary.framework */; };
 		37A947EB238F03B7005CE331 /* LPLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A947EA238F03B7005CE331 /* LPLibraryTests.swift */; };
 		37A947ED238F03B7005CE331 /* LPLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A947DF238F03B7005CE331 /* LPLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		372808EF238F09BD0039DBFA /* LPLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPLibrary.swift; sourceTree = "<group>"; };
 		37A947DC238F03B7005CE331 /* LPLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LPLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A947DF238F03B7005CE331 /* LPLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPLibrary.h; sourceTree = "<group>"; };
 		37A947E0238F03B7005CE331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				37A947DF238F03B7005CE331 /* LPLibrary.h */,
 				37A947E0238F03B7005CE331 /* Info.plist */,
+				372808EF238F09BD0039DBFA /* LPLibrary.swift */,
 			);
 			path = LPLibrary;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				TargetAttributes = {
 					37A947DB238F03B7005CE331 = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 					37A947E4238F03B7005CE331 = {
 						CreatedOnToolsVersion = 11.0;
@@ -263,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				372808F0238F09BD0039DBFA /* LPLibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +442,7 @@
 		37A947F1238F03B7005CE331 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = CL6H8JZ2JY;
@@ -453,6 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = LevPolyakov.LPLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,6 +468,7 @@
 		37A947F2238F03B7005CE331 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = CL6H8JZ2JY;
@@ -485,6 +493,7 @@
 		37A947F4238F03B7005CE331 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CL6H8JZ2JY;
 				INFOPLIST_FILE = LPLibraryTests/Info.plist;
@@ -503,6 +512,7 @@
 		37A947F5238F03B7005CE331 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CL6H8JZ2JY;
 				INFOPLIST_FILE = LPLibraryTests/Info.plist;
