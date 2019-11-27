@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		372808F0238F09BD0039DBFA /* LPLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372808EF238F09BD0039DBFA /* LPLibrary.swift */; };
-		37A947E6238F03B7005CE331 /* LPLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A947DC238F03B7005CE331 /* LPLibrary.framework */; };
+		375755FB238F386A0046C757 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 375755FA238F386A0046C757 /* Default-568h@2x.png */; };
+		37A947E6238F03B7005CE331 /* LEVPPOLLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A947DC238F03B7005CE331 /* LEVPPOLLibrary.framework */; };
 		37A947EB238F03B7005CE331 /* LPLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A947EA238F03B7005CE331 /* LPLibraryTests.swift */; };
 		37A947ED238F03B7005CE331 /* LPLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A947DF238F03B7005CE331 /* LPLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37A947FD238F0634005CE331 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A947FC238F0634005CE331 /* AppDelegate.swift */; };
@@ -31,13 +32,14 @@
 
 /* Begin PBXFileReference section */
 		372808EF238F09BD0039DBFA /* LPLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPLibrary.swift; sourceTree = "<group>"; };
-		37A947DC238F03B7005CE331 /* LPLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LPLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		375755FA238F386A0046C757 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		37A947DC238F03B7005CE331 /* LEVPPOLLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LEVPPOLLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A947DF238F03B7005CE331 /* LPLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPLibrary.h; sourceTree = "<group>"; };
 		37A947E0238F03B7005CE331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37A947E5238F03B7005CE331 /* LPLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A947E5238F03B7005CE331 /* LEVPPOLLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEVPPOLLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A947EA238F03B7005CE331 /* LPLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPLibraryTests.swift; sourceTree = "<group>"; };
 		37A947EC238F03B7005CE331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37A947FA238F0634005CE331 /* LPLibraryExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPLibraryExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A947FA238F0634005CE331 /* LEVPPOLLibraryExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEVPPOLLibraryExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A947FC238F0634005CE331 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37A947FE238F0634005CE331 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		37A94800238F0634005CE331 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37A947E6238F03B7005CE331 /* LPLibrary.framework in Frameworks */,
+				37A947E6238F03B7005CE331 /* LEVPPOLLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,9 +78,10 @@
 		37A947D2238F03B7005CE331 = {
 			isa = PBXGroup;
 			children = (
-				37A947DE238F03B7005CE331 /* LPLibrary */,
-				37A947E9238F03B7005CE331 /* LPLibraryTests */,
-				37A947FB238F0634005CE331 /* LPLibraryExamples */,
+				375755FA238F386A0046C757 /* Default-568h@2x.png */,
+				37A947DE238F03B7005CE331 /* LEVPOLLibrary */,
+				37A947E9238F03B7005CE331 /* LEVPOLLibraryTests */,
+				37A947FB238F0634005CE331 /* LEVPOLLibraryExamples */,
 				37A947DD238F03B7005CE331 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,33 +89,33 @@
 		37A947DD238F03B7005CE331 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37A947DC238F03B7005CE331 /* LPLibrary.framework */,
-				37A947E5238F03B7005CE331 /* LPLibraryTests.xctest */,
-				37A947FA238F0634005CE331 /* LPLibraryExamples.app */,
+				37A947DC238F03B7005CE331 /* LEVPPOLLibrary.framework */,
+				37A947E5238F03B7005CE331 /* LEVPPOLLibraryTests.xctest */,
+				37A947FA238F0634005CE331 /* LEVPPOLLibraryExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		37A947DE238F03B7005CE331 /* LPLibrary */ = {
+		37A947DE238F03B7005CE331 /* LEVPOLLibrary */ = {
 			isa = PBXGroup;
 			children = (
 				37A947DF238F03B7005CE331 /* LPLibrary.h */,
 				37A947E0238F03B7005CE331 /* Info.plist */,
 				372808EF238F09BD0039DBFA /* LPLibrary.swift */,
 			);
-			path = LPLibrary;
+			path = LEVPOLLibrary;
 			sourceTree = "<group>";
 		};
-		37A947E9238F03B7005CE331 /* LPLibraryTests */ = {
+		37A947E9238F03B7005CE331 /* LEVPOLLibraryTests */ = {
 			isa = PBXGroup;
 			children = (
 				37A947EA238F03B7005CE331 /* LPLibraryTests.swift */,
 				37A947EC238F03B7005CE331 /* Info.plist */,
 			);
-			path = LPLibraryTests;
+			path = LEVPOLLibraryTests;
 			sourceTree = "<group>";
 		};
-		37A947FB238F0634005CE331 /* LPLibraryExamples */ = {
+		37A947FB238F0634005CE331 /* LEVPOLLibraryExamples */ = {
 			isa = PBXGroup;
 			children = (
 				37A947FC238F0634005CE331 /* AppDelegate.swift */,
@@ -123,7 +126,7 @@
 				37A94807238F0635005CE331 /* LaunchScreen.storyboard */,
 				37A9480A238F0635005CE331 /* Info.plist */,
 			);
-			path = LPLibraryExamples;
+			path = LEVPOLLibraryExamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +143,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		37A947DB238F03B7005CE331 /* LPLibrary */ = {
+		37A947DB238F03B7005CE331 /* LEVPPOLLibrary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37A947F0238F03B7005CE331 /* Build configuration list for PBXNativeTarget "LPLibrary" */;
+			buildConfigurationList = 37A947F0238F03B7005CE331 /* Build configuration list for PBXNativeTarget "LEVPPOLLibrary" */;
 			buildPhases = (
 				37A947D7238F03B7005CE331 /* Headers */,
 				37A947D8238F03B7005CE331 /* Sources */,
@@ -153,14 +156,14 @@
 			);
 			dependencies = (
 			);
-			name = LPLibrary;
+			name = LEVPPOLLibrary;
 			productName = LPLibrary;
-			productReference = 37A947DC238F03B7005CE331 /* LPLibrary.framework */;
+			productReference = 37A947DC238F03B7005CE331 /* LEVPPOLLibrary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		37A947E4238F03B7005CE331 /* LPLibraryTests */ = {
+		37A947E4238F03B7005CE331 /* LEVPPOLLibraryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37A947F3238F03B7005CE331 /* Build configuration list for PBXNativeTarget "LPLibraryTests" */;
+			buildConfigurationList = 37A947F3238F03B7005CE331 /* Build configuration list for PBXNativeTarget "LEVPPOLLibraryTests" */;
 			buildPhases = (
 				37A947E1238F03B7005CE331 /* Sources */,
 				37A947E2238F03B7005CE331 /* Frameworks */,
@@ -171,14 +174,14 @@
 			dependencies = (
 				37A947E8238F03B7005CE331 /* PBXTargetDependency */,
 			);
-			name = LPLibraryTests;
+			name = LEVPPOLLibraryTests;
 			productName = LPLibraryTests;
-			productReference = 37A947E5238F03B7005CE331 /* LPLibraryTests.xctest */;
+			productReference = 37A947E5238F03B7005CE331 /* LEVPPOLLibraryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		37A947F9238F0634005CE331 /* LPLibraryExamples */ = {
+		37A947F9238F0634005CE331 /* LEVPPOLLibraryExamples */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37A9480B238F0635005CE331 /* Build configuration list for PBXNativeTarget "LPLibraryExamples" */;
+			buildConfigurationList = 37A9480B238F0635005CE331 /* Build configuration list for PBXNativeTarget "LEVPPOLLibraryExamples" */;
 			buildPhases = (
 				37A947F6238F0634005CE331 /* Sources */,
 				37A947F7238F0634005CE331 /* Frameworks */,
@@ -188,9 +191,9 @@
 			);
 			dependencies = (
 			);
-			name = LPLibraryExamples;
+			name = LEVPPOLLibraryExamples;
 			productName = LPLibraryExamples;
-			productReference = 37A947FA238F0634005CE331 /* LPLibraryExamples.app */;
+			productReference = 37A947FA238F0634005CE331 /* LEVPPOLLibraryExamples.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 37A947D6238F03B7005CE331 /* Build configuration list for PBXProject "LPLibrary" */;
+			buildConfigurationList = 37A947D6238F03B7005CE331 /* Build configuration list for PBXProject "LEVPPOLLibrary" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,9 +231,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				37A947DB238F03B7005CE331 /* LPLibrary */,
-				37A947E4238F03B7005CE331 /* LPLibraryTests */,
-				37A947F9238F0634005CE331 /* LPLibraryExamples */,
+				37A947DB238F03B7005CE331 /* LEVPPOLLibrary */,
+				37A947E4238F03B7005CE331 /* LEVPPOLLibraryTests */,
+				37A947F9238F0634005CE331 /* LEVPPOLLibraryExamples */,
 			);
 		};
 /* End PBXProject section */
@@ -255,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37A94809238F0635005CE331 /* LaunchScreen.storyboard in Resources */,
+				375755FB238F386A0046C757 /* Default-568h@2x.png in Resources */,
 				37A94806238F0635005CE331 /* Assets.xcassets in Resources */,
 				37A94804238F0634005CE331 /* Main.storyboard in Resources */,
 			);
@@ -294,7 +298,7 @@
 /* Begin PBXTargetDependency section */
 		37A947E8238F03B7005CE331 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 37A947DB238F03B7005CE331 /* LPLibrary */;
+			target = 37A947DB238F03B7005CE331 /* LEVPPOLLibrary */;
 			targetProxy = 37A947E7238F03B7005CE331 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -449,14 +453,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = LPLibrary/Info.plist;
+				INFOPLIST_FILE = LEVPOLLibrary/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LevPolyakov.LPLibrary;
+				PRODUCT_BUNDLE_IDENTIFIER = LevPolyakov.LEVPOLLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -475,14 +479,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = LPLibrary/Info.plist;
+				INFOPLIST_FILE = LEVPOLLibrary/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LevPolyakov.LPLibrary;
+				PRODUCT_BUNDLE_IDENTIFIER = LevPolyakov.LEVPOLLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -496,13 +500,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CL6H8JZ2JY;
-				INFOPLIST_FILE = LPLibraryTests/Info.plist;
+				INFOPLIST_FILE = LEVPOLLibraryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LevPolyakov.LPLibraryTests;
+				PRODUCT_BUNDLE_IDENTIFIER = LevPolyakov.LEVPOLLibraryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -515,13 +519,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CL6H8JZ2JY;
-				INFOPLIST_FILE = LPLibraryTests/Info.plist;
+				INFOPLIST_FILE = LEVPOLLibraryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LevPolyakov.LPLibraryTests;
+				PRODUCT_BUNDLE_IDENTIFIER = LevPolyakov.LEVPOLLibraryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -534,13 +538,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CL6H8JZ2JY;
-				INFOPLIST_FILE = LPLibraryExamples/Info.plist;
+				INFOPLIST_FILE = LEVPOLLibraryExamples/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LevPolyakov.LPLibraryExamples;
+				PRODUCT_BUNDLE_IDENTIFIER = LevPolyakov.LEVPOLLibraryExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -553,13 +557,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CL6H8JZ2JY;
-				INFOPLIST_FILE = LPLibraryExamples/Info.plist;
+				INFOPLIST_FILE = LEVPOLLibraryExamples/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LevPolyakov.LPLibraryExamples;
+				PRODUCT_BUNDLE_IDENTIFIER = LevPolyakov.LEVPOLLibraryExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -569,7 +573,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37A947D6238F03B7005CE331 /* Build configuration list for PBXProject "LPLibrary" */ = {
+		37A947D6238F03B7005CE331 /* Build configuration list for PBXProject "LEVPPOLLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37A947EE238F03B7005CE331 /* Debug */,
@@ -578,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37A947F0238F03B7005CE331 /* Build configuration list for PBXNativeTarget "LPLibrary" */ = {
+		37A947F0238F03B7005CE331 /* Build configuration list for PBXNativeTarget "LEVPPOLLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37A947F1238F03B7005CE331 /* Debug */,
@@ -587,7 +591,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37A947F3238F03B7005CE331 /* Build configuration list for PBXNativeTarget "LPLibraryTests" */ = {
+		37A947F3238F03B7005CE331 /* Build configuration list for PBXNativeTarget "LEVPPOLLibraryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37A947F4238F03B7005CE331 /* Debug */,
@@ -596,7 +600,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37A9480B238F0635005CE331 /* Build configuration list for PBXNativeTarget "LPLibraryExamples" */ = {
+		37A9480B238F0635005CE331 /* Build configuration list for PBXNativeTarget "LEVPPOLLibraryExamples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37A9480C238F0635005CE331 /* Debug */,

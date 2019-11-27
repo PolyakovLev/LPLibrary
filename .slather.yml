@@ -1,7 +1,7 @@
 
 coverage_service: cobertura_xml
-xcodeproj: LPLibrary.xcodeproj
-scheme: LPLibrary
+xcodeproj: LEVPOLLibrary.xcodeproj
+scheme: LEVPOLLibrary
 output_directory: reports
 ignore:
-  - LPLibraryTests/*
+  - LEVPOLLibraryTests/*

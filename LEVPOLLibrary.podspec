@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint LPLibrary.podspec' to ensure this is a
+#  Be sure to run `pod spec lint LEVPOLLibrary.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "LPLibrary"
+  spec.name         = "LEVPOLLibrary"
   spec.version      = "1.0.0"
   spec.summary      = "Simple custom swift Library"
 
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "LPLibrary/**/*{m,h,swift}"
+  spec.source_files  = "LEVPOLLibrary/**/*{m,h,swift}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
