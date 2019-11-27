@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "37A947DB238F03B7005CE331"
-               BuildableName = "LEVPPOLLibrary.framework"
-               BlueprintName = "LEVPPOLLibrary"
-               ReferencedContainer = "container:LEVPPOLLibrary.xcodeproj">
+               BuildableName = "LEVPOLLibrary.framework"
+               BlueprintName = "LEVPOLLibrary"
+               ReferencedContainer = "container:LEVPOLLibrary.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "37A947E4238F03B7005CE331"
-               BuildableName = "LEVPPOLLibraryTests.xctest"
-               BlueprintName = "LEVPPOLLibraryTests"
-               ReferencedContainer = "container:LEVPPOLLibrary.xcodeproj">
+               BuildableName = "LEVPOLLibraryTests.xctest"
+               BlueprintName = "LEVPOLLibraryTests"
+               ReferencedContainer = "container:LEVPOLLibrary.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "37A947DB238F03B7005CE331"
-            BuildableName = "LEVPPOLLibrary.framework"
-            BlueprintName = "LEVPPOLLibrary"
-            ReferencedContainer = "container:LEVPPOLLibrary.xcodeproj">
+            BuildableName = "LEVPOLLibrary.framework"
+            BlueprintName = "LEVPOLLibrary"
+            ReferencedContainer = "container:LEVPOLLibrary.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

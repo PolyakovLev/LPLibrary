@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import LPLibrary
+@testable import LEVPOLLibrary
 
 class LPLibraryTests: XCTestCase {
 

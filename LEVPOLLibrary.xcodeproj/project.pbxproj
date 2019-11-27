@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		372808F0238F09BD0039DBFA /* LPLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372808EF238F09BD0039DBFA /* LPLibrary.swift */; };
+		372808F0238F09BD0039DBFA /* LEVPOLLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372808EF238F09BD0039DBFA /* LEVPOLLibrary.swift */; };
 		375755FB238F386A0046C757 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 375755FA238F386A0046C757 /* Default-568h@2x.png */; };
-		37A947E6238F03B7005CE331 /* LEVPPOLLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A947DC238F03B7005CE331 /* LEVPPOLLibrary.framework */; };
-		37A947EB238F03B7005CE331 /* LPLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A947EA238F03B7005CE331 /* LPLibraryTests.swift */; };
-		37A947ED238F03B7005CE331 /* LPLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A947DF238F03B7005CE331 /* LPLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37A947E6238F03B7005CE331 /* LEVPOLLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A947DC238F03B7005CE331 /* LEVPOLLibrary.framework */; };
+		37A947EB238F03B7005CE331 /* LEVPOLLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A947EA238F03B7005CE331 /* LEVPOLLibrary.swift */; };
+		37A947ED238F03B7005CE331 /* LEVPOLLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A947DF238F03B7005CE331 /* LEVPOLLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37A947FD238F0634005CE331 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A947FC238F0634005CE331 /* AppDelegate.swift */; };
 		37A947FF238F0634005CE331 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A947FE238F0634005CE331 /* SceneDelegate.swift */; };
 		37A94801238F0634005CE331 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A94800238F0634005CE331 /* ViewController.swift */; };
@@ -31,15 +31,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		372808EF238F09BD0039DBFA /* LPLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPLibrary.swift; sourceTree = "<group>"; };
+		372808EF238F09BD0039DBFA /* LEVPOLLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEVPOLLibrary.swift; sourceTree = "<group>"; };
 		375755FA238F386A0046C757 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		37A947DC238F03B7005CE331 /* LEVPPOLLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LEVPPOLLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37A947DF238F03B7005CE331 /* LPLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPLibrary.h; sourceTree = "<group>"; };
+		37A947DC238F03B7005CE331 /* LEVPOLLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LEVPOLLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A947DF238F03B7005CE331 /* LEVPOLLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEVPOLLibrary.h; sourceTree = "<group>"; };
 		37A947E0238F03B7005CE331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37A947E5238F03B7005CE331 /* LEVPPOLLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEVPPOLLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		37A947EA238F03B7005CE331 /* LPLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPLibraryTests.swift; sourceTree = "<group>"; };
+		37A947E5238F03B7005CE331 /* LEVPOLLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEVPOLLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A947EA238F03B7005CE331 /* LEVPOLLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEVPOLLibrary.swift; sourceTree = "<group>"; };
 		37A947EC238F03B7005CE331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37A947FA238F0634005CE331 /* LEVPPOLLibraryExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEVPPOLLibraryExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A947FA238F0634005CE331 /* LEVPOLLibraryExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEVPOLLibraryExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A947FC238F0634005CE331 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37A947FE238F0634005CE331 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		37A94800238F0634005CE331 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37A947E6238F03B7005CE331 /* LEVPPOLLibrary.framework in Frameworks */,
+				37A947E6238F03B7005CE331 /* LEVPOLLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,9 +89,9 @@
 		37A947DD238F03B7005CE331 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37A947DC238F03B7005CE331 /* LEVPPOLLibrary.framework */,
-				37A947E5238F03B7005CE331 /* LEVPPOLLibraryTests.xctest */,
-				37A947FA238F0634005CE331 /* LEVPPOLLibraryExamples.app */,
+				37A947DC238F03B7005CE331 /* LEVPOLLibrary.framework */,
+				37A947E5238F03B7005CE331 /* LEVPOLLibraryTests.xctest */,
+				37A947FA238F0634005CE331 /* LEVPOLLibraryExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,9 +99,9 @@
 		37A947DE238F03B7005CE331 /* LEVPOLLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				37A947DF238F03B7005CE331 /* LPLibrary.h */,
+				37A947DF238F03B7005CE331 /* LEVPOLLibrary.h */,
 				37A947E0238F03B7005CE331 /* Info.plist */,
-				372808EF238F09BD0039DBFA /* LPLibrary.swift */,
+				372808EF238F09BD0039DBFA /* LEVPOLLibrary.swift */,
 			);
 			path = LEVPOLLibrary;
 			sourceTree = "<group>";
@@ -109,7 +109,7 @@
 		37A947E9238F03B7005CE331 /* LEVPOLLibraryTests */ = {
 			isa = PBXGroup;
 			children = (
-				37A947EA238F03B7005CE331 /* LPLibraryTests.swift */,
+				37A947EA238F03B7005CE331 /* LEVPOLLibrary.swift */,
 				37A947EC238F03B7005CE331 /* Info.plist */,
 			);
 			path = LEVPOLLibraryTests;
@@ -136,16 +136,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37A947ED238F03B7005CE331 /* LPLibrary.h in Headers */,
+				37A947ED238F03B7005CE331 /* LEVPOLLibrary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		37A947DB238F03B7005CE331 /* LEVPPOLLibrary */ = {
+		37A947DB238F03B7005CE331 /* LEVPOLLibrary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37A947F0238F03B7005CE331 /* Build configuration list for PBXNativeTarget "LEVPPOLLibrary" */;
+			buildConfigurationList = 37A947F0238F03B7005CE331 /* Build configuration list for PBXNativeTarget "LEVPOLLibrary" */;
 			buildPhases = (
 				37A947D7238F03B7005CE331 /* Headers */,
 				37A947D8238F03B7005CE331 /* Sources */,
@@ -156,14 +156,14 @@
 			);
 			dependencies = (
 			);
-			name = LEVPPOLLibrary;
+			name = LEVPOLLibrary;
 			productName = LPLibrary;
-			productReference = 37A947DC238F03B7005CE331 /* LEVPPOLLibrary.framework */;
+			productReference = 37A947DC238F03B7005CE331 /* LEVPOLLibrary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		37A947E4238F03B7005CE331 /* LEVPPOLLibraryTests */ = {
+		37A947E4238F03B7005CE331 /* LEVPOLLibraryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37A947F3238F03B7005CE331 /* Build configuration list for PBXNativeTarget "LEVPPOLLibraryTests" */;
+			buildConfigurationList = 37A947F3238F03B7005CE331 /* Build configuration list for PBXNativeTarget "LEVPOLLibraryTests" */;
 			buildPhases = (
 				37A947E1238F03B7005CE331 /* Sources */,
 				37A947E2238F03B7005CE331 /* Frameworks */,
@@ -174,14 +174,14 @@
 			dependencies = (
 				37A947E8238F03B7005CE331 /* PBXTargetDependency */,
 			);
-			name = LEVPPOLLibraryTests;
+			name = LEVPOLLibraryTests;
 			productName = LPLibraryTests;
-			productReference = 37A947E5238F03B7005CE331 /* LEVPPOLLibraryTests.xctest */;
+			productReference = 37A947E5238F03B7005CE331 /* LEVPOLLibraryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		37A947F9238F0634005CE331 /* LEVPPOLLibraryExamples */ = {
+		37A947F9238F0634005CE331 /* LEVPOLLibraryExamples */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37A9480B238F0635005CE331 /* Build configuration list for PBXNativeTarget "LEVPPOLLibraryExamples" */;
+			buildConfigurationList = 37A9480B238F0635005CE331 /* Build configuration list for PBXNativeTarget "LEVPOLLibraryExamples" */;
 			buildPhases = (
 				37A947F6238F0634005CE331 /* Sources */,
 				37A947F7238F0634005CE331 /* Frameworks */,
@@ -191,9 +191,9 @@
 			);
 			dependencies = (
 			);
-			name = LEVPPOLLibraryExamples;
+			name = LEVPOLLibraryExamples;
 			productName = LPLibraryExamples;
-			productReference = 37A947FA238F0634005CE331 /* LEVPPOLLibraryExamples.app */;
+			productReference = 37A947FA238F0634005CE331 /* LEVPOLLibraryExamples.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 37A947D6238F03B7005CE331 /* Build configuration list for PBXProject "LEVPPOLLibrary" */;
+			buildConfigurationList = 37A947D6238F03B7005CE331 /* Build configuration list for PBXProject "LEVPOLLibrary" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -231,9 +231,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				37A947DB238F03B7005CE331 /* LEVPPOLLibrary */,
-				37A947E4238F03B7005CE331 /* LEVPPOLLibraryTests */,
-				37A947F9238F0634005CE331 /* LEVPPOLLibraryExamples */,
+				37A947DB238F03B7005CE331 /* LEVPOLLibrary */,
+				37A947E4238F03B7005CE331 /* LEVPOLLibraryTests */,
+				37A947F9238F0634005CE331 /* LEVPOLLibraryExamples */,
 			);
 		};
 /* End PBXProject section */
@@ -271,7 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				372808F0238F09BD0039DBFA /* LPLibrary.swift in Sources */,
+				372808F0238F09BD0039DBFA /* LEVPOLLibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37A947EB238F03B7005CE331 /* LPLibraryTests.swift in Sources */,
+				37A947EB238F03B7005CE331 /* LEVPOLLibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +298,7 @@
 /* Begin PBXTargetDependency section */
 		37A947E8238F03B7005CE331 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 37A947DB238F03B7005CE331 /* LEVPPOLLibrary */;
+			target = 37A947DB238F03B7005CE331 /* LEVPOLLibrary */;
 			targetProxy = 37A947E7238F03B7005CE331 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -573,7 +573,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37A947D6238F03B7005CE331 /* Build configuration list for PBXProject "LEVPPOLLibrary" */ = {
+		37A947D6238F03B7005CE331 /* Build configuration list for PBXProject "LEVPOLLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37A947EE238F03B7005CE331 /* Debug */,
@@ -582,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37A947F0238F03B7005CE331 /* Build configuration list for PBXNativeTarget "LEVPPOLLibrary" */ = {
+		37A947F0238F03B7005CE331 /* Build configuration list for PBXNativeTarget "LEVPOLLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37A947F1238F03B7005CE331 /* Debug */,
@@ -591,7 +591,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37A947F3238F03B7005CE331 /* Build configuration list for PBXNativeTarget "LEVPPOLLibraryTests" */ = {
+		37A947F3238F03B7005CE331 /* Build configuration list for PBXNativeTarget "LEVPOLLibraryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37A947F4238F03B7005CE331 /* Debug */,
@@ -600,7 +600,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37A9480B238F0635005CE331 /* Build configuration list for PBXNativeTarget "LEVPPOLLibraryExamples" */ = {
+		37A9480B238F0635005CE331 /* Build configuration list for PBXNativeTarget "LEVPOLLibraryExamples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37A9480C238F0635005CE331 /* Debug */,
