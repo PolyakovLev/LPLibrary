@@ -18,4 +18,6 @@ public final class LPLibrary {
     public func sub(a: Int, b: Int) -> Int {
         return a - b
     }
+    
+    public init() {}
 }
