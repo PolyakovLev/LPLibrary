@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import LDAUsefulTools
 
 public final class LPLibrary {
     let name = "LPLibrary"

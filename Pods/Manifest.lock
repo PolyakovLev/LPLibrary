@@ -1,0 +1,16 @@
+PODS:
+  - LDAUsefulTools (1.0.2)
+
+DEPENDENCIES:
+  - LDAUsefulTools
+
+SPEC REPOS:
+  trunk:
+    - LDAUsefulTools
+
+SPEC CHECKSUMS:
+  LDAUsefulTools: 726db7390d5c8b3e83e7ef76f647cf3c340ffdb1
+
+PODFILE CHECKSUM: 29b13ea51224fad96a1fd37bad77a24fa38578e8
+
+COCOAPODS: 1.8.4

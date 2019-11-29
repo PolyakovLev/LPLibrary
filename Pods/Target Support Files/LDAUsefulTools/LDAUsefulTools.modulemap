@@ -1,0 +1,6 @@
+framework module LDAUsefulTools {
+  umbrella header "LDAUsefulTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

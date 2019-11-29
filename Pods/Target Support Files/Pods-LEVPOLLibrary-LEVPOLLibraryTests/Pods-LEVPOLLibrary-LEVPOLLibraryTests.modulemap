@@ -1,0 +1,6 @@
+framework module Pods_LEVPOLLibrary_LEVPOLLibraryTests {
+  umbrella header "Pods-LEVPOLLibrary-LEVPOLLibraryTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

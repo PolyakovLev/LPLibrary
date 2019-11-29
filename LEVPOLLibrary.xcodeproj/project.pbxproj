@@ -18,6 +18,9 @@
 		37A94804238F0634005CE331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A94802238F0634005CE331 /* Main.storyboard */; };
 		37A94806238F0635005CE331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A94805238F0635005CE331 /* Assets.xcassets */; };
 		37A94809238F0635005CE331 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A94807238F0635005CE331 /* LaunchScreen.storyboard */; };
+		608AA3381ADDE1FFFA4D6A8F /* Pods_LEVPOLLibrary_LEVPOLLibraryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B26C3FB166E93C16FE44EB /* Pods_LEVPOLLibrary_LEVPOLLibraryTests.framework */; };
+		B61725810CBBB536CD7AC338 /* Pods_LEVPOLLibraryExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC65A6C0DFD7F103FED0448 /* Pods_LEVPOLLibraryExamples.framework */; };
+		D66E8A027EE27FD24693BB8E /* Pods_LEVPOLLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C1765DF6C8399EFEBC487A /* Pods_LEVPOLLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FD186D752E24E9569777FE7 /* Pods-LEVPOLLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEVPOLLibrary.debug.xcconfig"; path = "Target Support Files/Pods-LEVPOLLibrary/Pods-LEVPOLLibrary.debug.xcconfig"; sourceTree = "<group>"; };
 		372808EF238F09BD0039DBFA /* LEVPOLLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEVPOLLibrary.swift; sourceTree = "<group>"; };
 		375755FA238F386A0046C757 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		37A947DC238F03B7005CE331 /* LEVPOLLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LEVPOLLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +51,14 @@
 		37A94805238F0635005CE331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37A94808238F0635005CE331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37A9480A238F0635005CE331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51B26C3FB166E93C16FE44EB /* Pods_LEVPOLLibrary_LEVPOLLibraryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LEVPOLLibrary_LEVPOLLibraryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D1E8175F07B5408CCF75BA /* Pods-LEVPOLLibraryExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEVPOLLibraryExamples.debug.xcconfig"; path = "Target Support Files/Pods-LEVPOLLibraryExamples/Pods-LEVPOLLibraryExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		66B09A8480C1D93FDBF05844 /* Pods-LEVPOLLibrary-LEVPOLLibraryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEVPOLLibrary-LEVPOLLibraryTests.release.xcconfig"; path = "Target Support Files/Pods-LEVPOLLibrary-LEVPOLLibraryTests/Pods-LEVPOLLibrary-LEVPOLLibraryTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C61F222CEAA37502C5E4C70 /* Pods-LEVPOLLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEVPOLLibrary.release.xcconfig"; path = "Target Support Files/Pods-LEVPOLLibrary/Pods-LEVPOLLibrary.release.xcconfig"; sourceTree = "<group>"; };
+		6CC65A6C0DFD7F103FED0448 /* Pods_LEVPOLLibraryExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LEVPOLLibraryExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FDA7BDA36CCC4E151FDF9B7 /* Pods-LEVPOLLibrary-LEVPOLLibraryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEVPOLLibrary-LEVPOLLibraryTests.debug.xcconfig"; path = "Target Support Files/Pods-LEVPOLLibrary-LEVPOLLibraryTests/Pods-LEVPOLLibrary-LEVPOLLibraryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		968333E2B3F26E9671622567 /* Pods-LEVPOLLibraryExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEVPOLLibraryExamples.release.xcconfig"; path = "Target Support Files/Pods-LEVPOLLibraryExamples/Pods-LEVPOLLibraryExamples.release.xcconfig"; sourceTree = "<group>"; };
+		B4C1765DF6C8399EFEBC487A /* Pods_LEVPOLLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LEVPOLLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D66E8A027EE27FD24693BB8E /* Pods_LEVPOLLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37A947E6238F03B7005CE331 /* LEVPOLLibrary.framework in Frameworks */,
+				608AA3381ADDE1FFFA4D6A8F /* Pods_LEVPOLLibrary_LEVPOLLibraryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B61725810CBBB536CD7AC338 /* Pods_LEVPOLLibraryExamples.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				37A947E9238F03B7005CE331 /* LEVPOLLibraryTests */,
 				37A947FB238F0634005CE331 /* LEVPOLLibraryExamples */,
 				37A947DD238F03B7005CE331 /* Products */,
+				B625E8E911EE3E88ECA5DFDF /* Pods */,
+				C75FD98E651D48788951D27F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +146,30 @@
 			path = LEVPOLLibraryExamples;
 			sourceTree = "<group>";
 		};
+		B625E8E911EE3E88ECA5DFDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FD186D752E24E9569777FE7 /* Pods-LEVPOLLibrary.debug.xcconfig */,
+				6C61F222CEAA37502C5E4C70 /* Pods-LEVPOLLibrary.release.xcconfig */,
+				7FDA7BDA36CCC4E151FDF9B7 /* Pods-LEVPOLLibrary-LEVPOLLibraryTests.debug.xcconfig */,
+				66B09A8480C1D93FDBF05844 /* Pods-LEVPOLLibrary-LEVPOLLibraryTests.release.xcconfig */,
+				58D1E8175F07B5408CCF75BA /* Pods-LEVPOLLibraryExamples.debug.xcconfig */,
+				968333E2B3F26E9671622567 /* Pods-LEVPOLLibraryExamples.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C75FD98E651D48788951D27F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4C1765DF6C8399EFEBC487A /* Pods_LEVPOLLibrary.framework */,
+				51B26C3FB166E93C16FE44EB /* Pods_LEVPOLLibrary_LEVPOLLibraryTests.framework */,
+				6CC65A6C0DFD7F103FED0448 /* Pods_LEVPOLLibraryExamples.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -147,6 +188,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37A947F0238F03B7005CE331 /* Build configuration list for PBXNativeTarget "LEVPOLLibrary" */;
 			buildPhases = (
+				1660F31C8FAE80A3C221DF3C /* [CP] Check Pods Manifest.lock */,
 				37A947D7238F03B7005CE331 /* Headers */,
 				37A947D8238F03B7005CE331 /* Sources */,
 				37A947D9238F03B7005CE331 /* Frameworks */,
@@ -165,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37A947F3238F03B7005CE331 /* Build configuration list for PBXNativeTarget "LEVPOLLibraryTests" */;
 			buildPhases = (
+				5658CE096FD771BF4F56DEA8 /* [CP] Check Pods Manifest.lock */,
 				37A947E1238F03B7005CE331 /* Sources */,
 				37A947E2238F03B7005CE331 /* Frameworks */,
 				37A947E3238F03B7005CE331 /* Resources */,
+				2FDB20AC91ABDBA042812F62 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -183,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37A9480B238F0635005CE331 /* Build configuration list for PBXNativeTarget "LEVPOLLibraryExamples" */;
 			buildPhases = (
+				8D10CF2F912DD50769233BB9 /* [CP] Check Pods Manifest.lock */,
 				37A947F6238F0634005CE331 /* Sources */,
 				37A947F7238F0634005CE331 /* Frameworks */,
 				37A947F8238F0634005CE331 /* Resources */,
+				215E20CE72D55ED13FBF7671 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,6 +311,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1660F31C8FAE80A3C221DF3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LEVPOLLibrary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		215E20CE72D55ED13FBF7671 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LEVPOLLibraryExamples/Pods-LEVPOLLibraryExamples-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LEVPOLLibraryExamples/Pods-LEVPOLLibraryExamples-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LEVPOLLibraryExamples/Pods-LEVPOLLibraryExamples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FDB20AC91ABDBA042812F62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LEVPOLLibrary-LEVPOLLibraryTests/Pods-LEVPOLLibrary-LEVPOLLibraryTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LEVPOLLibrary-LEVPOLLibraryTests/Pods-LEVPOLLibrary-LEVPOLLibraryTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LEVPOLLibrary-LEVPOLLibraryTests/Pods-LEVPOLLibrary-LEVPOLLibraryTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5658CE096FD771BF4F56DEA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LEVPOLLibrary-LEVPOLLibraryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D10CF2F912DD50769233BB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LEVPOLLibraryExamples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		37A947D8238F03B7005CE331 /* Sources */ = {
@@ -445,6 +594,7 @@
 		};
 		37A947F1238F03B7005CE331 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD186D752E24E9569777FE7 /* Pods-LEVPOLLibrary.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +621,7 @@
 		};
 		37A947F2238F03B7005CE331 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C61F222CEAA37502C5E4C70 /* Pods-LEVPOLLibrary.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -496,6 +647,7 @@
 		};
 		37A947F4238F03B7005CE331 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FDA7BDA36CCC4E151FDF9B7 /* Pods-LEVPOLLibrary-LEVPOLLibraryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -515,6 +667,7 @@
 		};
 		37A947F5238F03B7005CE331 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66B09A8480C1D93FDBF05844 /* Pods-LEVPOLLibrary-LEVPOLLibraryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,12 +687,13 @@
 		};
 		37A9480C238F0635005CE331 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58D1E8175F07B5408CCF75BA /* Pods-LEVPOLLibraryExamples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CL6H8JZ2JY;
 				INFOPLIST_FILE = LEVPOLLibraryExamples/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -553,12 +707,13 @@
 		};
 		37A9480D238F0635005CE331 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968333E2B3F26E9671622567 /* Pods-LEVPOLLibraryExamples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CL6H8JZ2JY;
 				INFOPLIST_FILE = LEVPOLLibraryExamples/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
