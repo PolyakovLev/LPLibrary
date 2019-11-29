@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,8 @@
 		608AA3381ADDE1FFFA4D6A8F /* Pods_LEVPOLLibrary_LEVPOLLibraryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B26C3FB166E93C16FE44EB /* Pods_LEVPOLLibrary_LEVPOLLibraryTests.framework */; };
 		B61725810CBBB536CD7AC338 /* Pods_LEVPOLLibraryExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC65A6C0DFD7F103FED0448 /* Pods_LEVPOLLibraryExamples.framework */; };
 		D66E8A027EE27FD24693BB8E /* Pods_LEVPOLLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C1765DF6C8399EFEBC487A /* Pods_LEVPOLLibrary.framework */; };
+		E1E672CF23910C3700D6FF9B /* BillPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E672CE23910C3700D6FF9B /* BillPrint.swift */; };
+		E1E672D123910D0200D6FF9B /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E672D023910D0200D6FF9B /* Operations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		7FDA7BDA36CCC4E151FDF9B7 /* Pods-LEVPOLLibrary-LEVPOLLibraryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEVPOLLibrary-LEVPOLLibraryTests.debug.xcconfig"; path = "Target Support Files/Pods-LEVPOLLibrary-LEVPOLLibraryTests/Pods-LEVPOLLibrary-LEVPOLLibraryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		968333E2B3F26E9671622567 /* Pods-LEVPOLLibraryExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEVPOLLibraryExamples.release.xcconfig"; path = "Target Support Files/Pods-LEVPOLLibraryExamples/Pods-LEVPOLLibraryExamples.release.xcconfig"; sourceTree = "<group>"; };
 		B4C1765DF6C8399EFEBC487A /* Pods_LEVPOLLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LEVPOLLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E672CE23910C3700D6FF9B /* BillPrint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillPrint.swift; sourceTree = "<group>"; };
+		E1E672D023910D0200D6FF9B /* Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 				37A947DF238F03B7005CE331 /* LEVPOLLibrary.h */,
 				37A947E0238F03B7005CE331 /* Info.plist */,
 				372808EF238F09BD0039DBFA /* LEVPOLLibrary.swift */,
+				E1E672CE23910C3700D6FF9B /* BillPrint.swift */,
+				E1E672D023910D0200D6FF9B /* Operations.swift */,
 			);
 			path = LEVPOLLibrary;
 			sourceTree = "<group>";
@@ -156,7 +162,6 @@
 				58D1E8175F07B5408CCF75BA /* Pods-LEVPOLLibraryExamples.debug.xcconfig */,
 				968333E2B3F26E9671622567 /* Pods-LEVPOLLibraryExamples.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -420,6 +425,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1E672D123910D0200D6FF9B /* Operations.swift in Sources */,
+				E1E672CF23910C3700D6FF9B /* BillPrint.swift in Sources */,
 				372808F0238F09BD0039DBFA /* LEVPOLLibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
